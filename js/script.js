@@ -17,7 +17,12 @@ btn.addEventListener('click', function(){
  for( let i = 0; i < 100; i++){
      // creo il mio quadrato richiamando la funzione createsquare
      let currerentSquare = createsquare();
-
+ // aggiungo l'evento click al mio quadrato
+     currerentSquare.addEventListener('click', function(){
+      this.classList.toggle('clicked');
+      console.log(this);
+     })
+   
  }
  })
 
