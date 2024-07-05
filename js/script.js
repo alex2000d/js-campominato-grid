@@ -9,3 +9,13 @@ function createsquare() {
 }
 // recupero l'elemento che contiene la mia griglia
 const grid = document.getElementById('grid');
+
+for( let i = 0; i < 100; i++){
+    let currerentSquare = createsquare();
+
+    currerentSquare.addEventListener('click', function(){
+     this.classList.toggle('clicked');
+     console.log(this);
+    })
+    
+}
