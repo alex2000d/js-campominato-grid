@@ -20,7 +20,7 @@ btn.addEventListener('click', function(){
  // aggiungo l'evento click al mio quadrato
      currerentSquare.addEventListener('click', function(){
       this.classList.toggle('clicked');
-      console.log(this);
+      console.log(`hai selezionato la cella numero`);
      })
      // gli assegno il numero progressivo
      currerentSquare.innerText = i + 1;

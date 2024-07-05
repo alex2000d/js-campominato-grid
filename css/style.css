@@ -22,6 +22,12 @@ h1{
     font-size: 24px;
 }
 
+main{
+    background-color: aqua;
+    padding: 30px;
+
+}
+
 .square{
     display: flex;
     justify-content: center;
@@ -30,7 +36,7 @@ h1{
     height: calc(100% / 10);
     background-color: aqua;
     border: 1px solid black;
-    color: black;
+    color: rgb(133, 1, 1);
 }
 
 #grid{
