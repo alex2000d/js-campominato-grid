@@ -11,6 +11,14 @@ function createsquare() {
 const btn = document.getElementById('start');
 // recupero l'elemento che contiene la mia griglia
 const grid = document.getElementById('grid');
+// creo il pulsante
+btn.addEventListener('click', function(){
+    // creo un ciclo composto da 100 iterazoni per realizzare la mia griglia 10 per 10
+ for( let i = 0; i < 100; i++){
+     // creo il mio quadrato richiamando la funzione createsquare
+     let currerentSquare = createsquare();
 
+ }
+ })
 
 
