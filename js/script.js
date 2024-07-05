@@ -22,7 +22,10 @@ btn.addEventListener('click', function(){
       this.classList.toggle('clicked');
       console.log(this);
      })
-   
+     // gli assegno il numero progressivo
+     currerentSquare.innerText = i + 1;
+     // appendo il quadrato alla mia griglia
+     grid.append(currerentSquare);
  }
  })
 
