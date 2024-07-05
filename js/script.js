@@ -7,3 +7,5 @@ function createsquare() {
     return currerentElement;
     
 }
+// recupero l'elemento che contiene la mia griglia
+const grid = document.getElementById('grid');
